@@ -4,7 +4,7 @@ import Button from '../components/Button';
 
 const Pricing = () => {
   return (
-    <section className="section stagger-reveal-wrapper">
+    <section id="pricing" className="section stagger-reveal-wrapper">
       <div className="label-md" style={{ marginBottom: 'var(--space-16)' }}>PRICING</div>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: 'var(--space-12)' }}>
 

@@ -11,7 +11,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="section flex-col gap-12 text-center" style={{ margin: '0 auto', maxWidth: '800px' }}>
+    <section id="faqs" className="section flex-col gap-12 text-center" style={{ margin: '0 auto', maxWidth: '800px' }}>
       <div className="label-md" style={{ marginBottom: '0' }}>FAQS</div>
       <h2 className="display-lg">FAQs</h2>
       <div className="flex-col text-left">

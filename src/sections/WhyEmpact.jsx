@@ -3,7 +3,7 @@ import { Zap, Layers, Globe, TrendingUp } from 'lucide-react';
 
 const WhyEmpact = () => {
   return (
-    <section className="section surface-shift stagger-reveal-wrapper">
+    <section id="why" className="section surface-shift stagger-reveal-wrapper">
       <div className="label-md" style={{ marginBottom: 'var(--space-8)' }}>WHY EMPACT</div>
       <h2 className="display-lg" style={{ fontSize: '2.5rem', marginBottom: 'var(--space-16)', maxWidth: '600px' }}>
         Editing is execution.<br/>Retention is engineering.<br/>

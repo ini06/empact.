@@ -2,7 +2,7 @@ import React from 'react';
 
 const Tools = () => {
   return (
-    <section className="section stagger-reveal-wrapper flex-col align-center text-center">
+    <section id="tools" className="section stagger-reveal-wrapper flex-col align-center text-center">
       <div className="label-md" style={{ marginBottom: 'var(--space-16)' }}>  TOOLS</div>
       <h2 className="display-lg" style={{ fontSize: '3.5rem', marginBottom: 'var(--space-8)' }}>
         Tools don’t define quality.<br />

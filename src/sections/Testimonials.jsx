@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <section className="section surface-shift stagger-reveal-wrapper">
+    <section id="testimonials" className="section surface-shift stagger-reveal-wrapper">
       <div className="label-md" style={{ marginBottom: 'var(--space-16)' }}>CLIENT WORDS</div>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--space-8)' }}>
         <div className="card flex-col gap-8 frosted-obsidian" style={{ justifyContent: 'space-between' }}>

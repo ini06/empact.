@@ -10,7 +10,7 @@ const Process = () => {
   ];
 
   return (
-    <section className="section surface-shift flex-col align-center text-center stagger-reveal-wrapper">
+    <section id="process" className="section surface-shift flex-col align-center text-center stagger-reveal-wrapper">
        <h2 className="label-md" style={{ marginBottom: 'var(--space-16)', letterSpacing: '0.4em' }}>PROCESS</h2>
        <div className="flex-col gap-12" style={{ maxWidth: '600px', width: '100%' }}>
          {steps.map((step, idx) => (

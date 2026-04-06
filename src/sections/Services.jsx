@@ -11,7 +11,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="section surface-shift">
+    <section id="services" className="section surface-shift">
        <div className="label-md" style={{ marginBottom: 'var(--space-8)' }}>SERVICES</div>
        <div className="flex-row gap-16" style={{ flexWrap: 'wrap', alignItems: 'flex-start' }}>
          <h2 className="display-lg" style={{ flex: '1 1 300px', fontSize: '3rem' }}>What We<br/>Execute</h2>
